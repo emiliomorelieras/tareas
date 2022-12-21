@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Master Rangers</title>
+<link rel="stylesheet" href="style.css">
+<script src="fabric.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body class="fondo_cuerpo">
+	<center>
+		<br></br>
+		<h3><i>Presiona <b>R, G, Y, P, B </b> para cargar a los</i> Master Rangers</h3>	
+		<br></br>	
+		<!-- Crea un canvas (lienzo) para agregar imágenes-->
+		
+	</center>
+	<script src="main.js"></script>
+
+</body>
+<canvas width="1500" height="550" id="milienzo"></canvas>
+var lienzo =new fabricCanvas(milienzo)
+function nueva_imagen(get_image)
+{
+	fabric.Image.fromURL(get_image, function(img){
+		bloque_objeto_image =Img;
+		bloque_objeto_image.scaleToWidth(block_image_width);
+		bloque_objeto_image.scaleToWidth(block_image_heihgt);
+		bloque_objeto_image.scaleToWidth(top_block_y,left:block_X);
+		lienzo.add(bloque_objeto_image)
+	}
+	va
+}
+
